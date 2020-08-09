@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Login</title>
-</head>
-<body>
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
     <h2>Login</h2>
     <form method="post">
       {% csrf_token %}
       {{ form.as_p }}
-      <button type="submit">Login</button>
-      <a href="{% url 'signup' %}">SignUp</a>
+      <button type="submit" class="btn btn-default" >Login</button>
+      <a class="btn btn-default" href="{% url 'signup' %}">SignUp</a>
     </form>
-</body>
-</html>
+</center>
+{% endblock %}

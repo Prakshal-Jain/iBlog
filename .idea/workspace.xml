@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b3f85356-b75f-419d-b8d8-a9b439b445e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/iBlog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596994165936</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Almost finished Backend func">
+      <created>1596995180436</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596995180436</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +109,7 @@
     <MESSAGE value="Added Blogs in homepage" />
     <MESSAGE value="Added Forms in to add blog" />
     <MESSAGE value="Almost finished Backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost finished Backend" />
+    <MESSAGE value="Almost finished Backend func" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost finished Backend func" />
   </component>
 </project>
