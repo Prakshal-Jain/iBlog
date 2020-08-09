@@ -18,28 +18,28 @@
 
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              Menu 1 <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="#">
-                  Menu 1.1
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  Menu 1.2
-                </a>
-              </li>
-            </ul>
-          </li>
           <li>
-            <a href="#">Menu 2</a>
+            <a href="#">About Us</a>
           </li>
 
             {% if user.is_authenticated %}
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Menu 1 <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">
+                        Contact Us
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        Get assistance in submitting
+                      </a>
+                    </li>
+                  </ul>
+              </li>
               <li><a href="{% url 'logout' %}">Logout</a></li>
             {% else %}
               <li><a href="{% url 'login' %}">Login</a></li>
