@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% if user.is_authenticated %}
+<div class="snup">
+    <form method="POST" class="post-form">{% csrf_token %}
+        {{ form.as_p }}
+        {{ form.media }}
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+{% else %}
+<center>Please Login first to add a post</center>
+</div>
+{% endif %}
+{% endblock %}

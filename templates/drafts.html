@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    {% if user.is_authenticated %}
+        <div class="container">
+            <center>Welcome, {{ user }}. Your drafted posts will show up here...</center>
+            <div class="row">
+                <!-- Blog Entries Column -->
+                <div class="col-md-8 mt-3 left">
+                    {% for post in post_list %}
+                        {% if user == post.author %}
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2 class="card-title">{{ post.title }}</h2>
+                                    <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
+                                    <p class="card-text">{{post.content|slice:":200" | safe }}</p>
+                                    <a href="{% url 'post_detail' post.pk  %}" class="btn btn-primary">Read More &rarr;</a>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+{% endif %}
+{% endblock %}
