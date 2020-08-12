@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3f85356-b75f-419d-b8d8-a9b439b445e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-    </list>
+    <list default="true" id="b3f85356-b75f-419d-b8d8-a9b439b445e6" name="Default Changelist" comment="Comments Added" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597082062565</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Comments Added">
+      <created>1597224080318</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597224080318</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +147,7 @@
     <MESSAGE value="Almost finished Backend func" />
     <MESSAGE value="Almost finished Backend functionality and Forms" />
     <MESSAGE value="Email Support" />
-    <option name="LAST_COMMIT_MESSAGE" value="Email Support" />
+    <MESSAGE value="Comments Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments Added" />
   </component>
 </project>
